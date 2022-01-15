@@ -1,0 +1,19 @@
+.tabula__btn {
+    padding: 1.485rem 2.025rem;
+    background: $color-prime;
+    color: $color-white;
+    border-radius: 50px;
+    font-size: 1.35rem;
+    transition: all 0.4s ease;
+    font-weight: 500;
+
+    &:hover {
+        box-shadow: 0 0 0 3em #fff inset;
+        color: $color-prime;
+        border: 1px solid $color-prime;
+    }
+
+    i {
+        padding-right: 0.4rem;
+    }
+};

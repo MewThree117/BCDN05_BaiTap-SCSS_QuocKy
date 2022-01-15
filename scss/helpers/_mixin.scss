@@ -1,0 +1,12 @@
+@mixin styleText($color, $fs, $fw) {
+    color: $color;
+    font-size: $fs;
+    font-weight: $fw;
+};
+
+@mixin styleIcon($color, $fs, $ml, $mr) {
+    color: $color;
+    font-size: $fs;
+    margin-left: $ml;
+    margin-right: $mr;
+};

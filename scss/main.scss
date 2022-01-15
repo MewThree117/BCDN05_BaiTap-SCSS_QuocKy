@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto&display=swap');
+//Helper
+@import "./helpers/variables";
+@import "./helpers/mixin";
+
+//Venders - chỉ thêm file scss của thư viện
+
+//Base (xóa thuộc tính mặc định của trình duyệt, thư viện)
+@import "./base/reset";
+
+//Components
+@import "./components/buttons";
+@import "./components/keyframe";
+
+//Layouts
+@import "./layouts/header";
+@import "./layouts/footer";
+
+//Pages (Thiết kế riêng)
+@import "./pages/about";
+@import "./pages/teachers";
+@import "./pages/your-info";
+
+//Theme
